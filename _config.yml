@@ -22,11 +22,11 @@ title: Anwesha's Workspace
 email: anwesha.saha284@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   My personal website showcasing my work, my failures and my successes.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  aquaorifice
-remote_theme: pages-themes/merlot
-theme: jekyll-theme-merlot
+remote_theme: pages-themes/merlot@v0.2.0
+# theme: jekyll-theme-merlot
 plugins:
   - jekyll-feed
 
