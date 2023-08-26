@@ -28,7 +28,7 @@ twitter_username: jekyllrb
 github_username:  aquaorifice
 
 # Build settings
-theme: merlot
+theme: jekyll-theme-merlot
 plugins:
   - jekyll-feed
 
