@@ -8,9 +8,25 @@ weight = 30  # Order that this section will appear.
 # Widget title
 title = "Experience"
 # Widget subtitle
-subtitle = "What lead me to acquire experience."
+subtitle = "How did I get here?"
 
 date_format = "Jan 2006" # Date format https://gohugo.io/functions/dateformat/#readout
+
+[[period]]
+  title = "Teaching Assistant"
+  company = "Boston University"
+  location = "USA"
+  date_start = "2019-08-01"
+  date_end = "2022-12-19"
+  description = "Worked as a Teaching Assistant for CS 392 - Intro to Software Development
+
+[[period]]
+  title = "Software Developer Intern"
+  company = "BU Spark!"
+  location = "USA"
+  date_start = "2019-06-01"
+  date_end = "2022-08-15"
+  description = "Worked as an intern for Spark! a pratical experiential learning based team at Boston University for course project design of Software Development Practicum based on NextJS and ExpressJS. Also got to work on CKAN - 'a tool for making open data websites' specfically on theming aspects of it to integrate the data@Spark! website."
 
 [[period]]
   title = "Software Developer"

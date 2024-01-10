@@ -4,14 +4,14 @@ title = "About me"
 type = "blog"
 +++
 
-I'm a **sea sponge** who works as a fry cook at the **Krusty Krab**:
-![](/img/krusty_krab.webp)
+I'm a **budding software developer** by profession, an occassional poet, sometimes an artist with an unhealthy addiction to shopping, eating dumplings and going out. My friends say I can be quite dramatic and sometimes show too much emotion(The jury is out about whether this is a bad thing). I also love most four-legged animals that I can potentially cuddle. I have two dogs - Cookie and Cheeni(translates to sugar) and believe in the philosophy of "More the Merrier"(just with dogs):
+![](/img/dramatic.jpg)
 
-The Krusty Krabe is a fast food restaurant known for it's signature burger:
+Meet my darling babies here!:
 
-![*The Krabby Patty*](/img/krabby_patty.webp)
+![*This is Cheeni (asleep)*](/img/cheeni.jpg)
 
-Try to make one yourself and you will be as happy as I am.
-![My first Krabby Patty](/img/spongebob-krusty-cook.webp)
+![This is Cookie right after she woke up](/img/cookie.jpg)
 
-You can take a look at the recipe [here](/blog/krabby_patty/).
+If you feel ever so inclined to view my poetic abilities, head on over to my [Poetry blog](https://anweshasmindbanters.blogspot.com/)
+.
