@@ -1,6 +1,6 @@
 +++
 widget = "contact_form"
-title = "Contact me" 
+title = "Contact me!" 
 
 # Uncomment the following line and widget will NOT be displayed
 # hidden = true
@@ -55,5 +55,4 @@ required = true
 
 +++
 
-Need help to open a fast-food ?
-Let’s talk about it !
+Have feedback about my work or looking for someone to have a long conversation with? Drop a message!

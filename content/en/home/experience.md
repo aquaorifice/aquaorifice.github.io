@@ -13,18 +13,18 @@ subtitle = "What lead me to acquire experience."
 date_format = "Jan 2006" # Date format https://gohugo.io/functions/dateformat/#readout
 
 [[period]]
-  title = "Chief cook"
-  subtitle = "Krusty krab"
-  location = "Bikini Bottom"
-  date_start = "2017-01-01"
-  date_end = ""
-  description = "Chief cook of the biggest restaurant of Bikini Bottom."
+  title = "Software Developer"
+  company = "Oracle"
+  location = "India"
+  date_start = "7th July 2019"
+  date_end = "5th August 2022"
+  description = "Fresh grad to a fresher developer of 3 years. Worked on full stack development, performance runs and automation and a lot of Oracle JET migration for Oracle Communications Session Monitor product team in the R&D division of the Communication Global Business Unit"
 
 [[period]]
-  title = "Trainee cook"
-  subtitle = "Krusty krab"
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = "I learned the basics of cooking, the passion and the secrets of a good burger."
+  title = "Research Intern"
+  subtitle = "Council for Scientific and Industrial Research (CSIR-4PI)"
+  location = "India"
+  date_start = "1st Jan, 2019"
+  date_end = "15th March, 2019"
+  description = "I worked on a  project with the goal of reducing metropolitan congestion through applied AI and modeling techniques and gained hands-on experience training neural network models on urban traffic simulations to solve real-world transportation issues. I learnt about applied and enhanced Python, simulation, modeling, and machine learning skills through development and training of neural networks and was able to demonstrate my ability to collaborate cross-functionally to execute innovative modeling and AI projects."
 +++
