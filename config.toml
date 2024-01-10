@@ -22,7 +22,7 @@ customJS = ["js/console.js"] # Path relative to assets folder
 # For blog page description you can overwrite it 
 # in the front matter
 description = "Boilerplate website"
-email = "mail@example.com"
+email = "anwesha.saha284@gmail.com"
 favicon = '/favicon.ico'
 # Dark mode support
 # Supported value are :
@@ -36,14 +36,14 @@ favicon = '/favicon.ico'
 alt = "email icon"
 icon = "/icons/email.svg"
 name = "email"
-url = "mailto:mail@example.com"
+url = "mailto:anwesha.saha284@gmail.com"
 
 [[params.social]]
 alt = "github icon"
 blank = true
 icon = "/icons/github.svg"
 name = "github"
-url = "https://github.com/"
+url = "https://github.com/aquaorifice"
 
 [[params.social]]
 alt = "medium icon"
