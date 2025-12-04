@@ -1,51 +1,250 @@
-# *folio
-A simple theme for showcasing your work, emphasis on whitespace, transparency, and helvetica. 
+# Anwesha Saha - Academic Portfolio Website
 
+A modern, professional academic website showcasing research, publications, and professional experience.
 
-<a href="http://bogoli.github.io/-folio/">Live Demo</a>
+## 🌟 Features
 
-<hr/>
+- **Clean White Design** with subtle animations and gradients
+- **Responsive Layout** that works on all devices
+- **News Highlights Section** featuring recent achievements
+- **Publications Page** for research papers
+- **Experience Section** highlighting Oracle work and PhD research
+- **Portfolio** showcasing projects and talks
+- **CV Page** with downloadable resume
+- **Smooth Animations** including fade-ins, hover effects, and transitions
 
+## 🚀 Quick Start
 
-## Features
+### Prerequisites
+- Ruby (2.7 or higher)
+- Jekyll
+- Bundler
 
-### Collections
-This Jekyll theme implements collections to let you break up your work into categories. The example is divided into poetry and portfolio, but easily revamp this into recipes, apps, short stories, limmericks, whatever your creative work is. 
-> To do this, edit the collections in the config file, create a corresponding folder, and update the portfolio and poetry source files. 
+### Installation
 
-Three different layouts are included—the poetry layout, for a simple list of entries, the blog layout (index.html), for more detailed descriptive list of entries, and the portfolio layout. The portfolio layout overlays a descriptive hoverover on a background image. If no image is provided, the square is auto-filled with the chosen theme color. Thumbnail sizing is not necessary, as the grid crops images perfectly. 
+```bash
+# Install Jekyll and Bundler
+gem install jekyll bundler
 
-### Portfolio Specifics
-You can easily add full pages for each of the projects in your portfolio. If you want one to link to an external website, create a file for it in _portfolio, and  fil in the YAML front matter as you would for another, but with a redirect, like so: 
+# Navigate to the site directory
+cd /Users/anweshasaha/Desktop/anwesha-docs/anwesha.github.io
 
-	---
-	layout: post
-	title: Project
-	description: a project that redirects to another website
-	img:
-	redirect: https://otherpage.com
-	--- 
+# Install dependencies
+bundle install
 
-### Theming
-Six beautiful theme colors have been selected to choose from. The default is red, but quickly change it by editing the _base.scss file in line 40. The color variable are listed there, as well. 
+# Run local server
+bundle exec jekyll serve
 
-### Photos
-Photo formatting is made simple using rows of a 3-column system. Make photos 1/3, 2/3, or full width. Easily create beautiful grids within your blog posts and projects pages. 
+# Visit http://localhost:4000 in your browser
+```
 
-### Code Highlighting
-This theme implements Jekyll's built in code syntax highlighting with Pygments. Just use a liquid tag to delineate your code: 
-{% highlight python %}
-	code code code
-{% endhighlight %}
+## 📝 Customization Guide
 
+See detailed guides:
+- **QUICK_START.md** - Fast setup for your interview
+- **SETUP_INSTRUCTIONS.md** - Complete deployment guide
+- **CONTENT_EXAMPLES.md** - Examples and templates for content
 
-<hr/>
-The MIT License (MIT)
-Copyright (c) 2015 Lia Bogoev
+### Essential Files to Update
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+1. **`_config.yml`** - Site settings, email, social media
+2. **`index.html`** - Homepage with news highlights
+3. **`about.md`** - Your biography and background
+4. **`publications.md`** - Your research papers
+5. **`experience.md`** - Work experience and skills
+6. **`portfolio.md`** - Projects and achievements
+7. **`cv.md`** - Complete CV
+8. **`/img/prof_pic.jpg`** - Your profile picture
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+## 🎨 Design System
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+### Colors
+- **Primary**: Dark Blue (`#00008B`)
+- **Background**: White with subtle blue gradients
+- **Accent**: Light Blue (`#e6f2ff`)
+- **Text**: Dark Gray (`#333`)
 
+### Typography
+- **Font**: Helvetica, Arial, sans-serif
+- **Base Size**: 16px
+- **Headings**: Light weight (100-300)
+
+### Animations
+- Fade-in on page load
+- Slide-in for news items
+- Hover effects on cards
+- Smooth transitions throughout
+
+## 📂 Project Structure
+
+```
+anwesha.github.io/
+├── index.html              # Homepage
+├── about.md               # About page
+├── publications.md        # Publications
+├── experience.md          # Experience
+├── portfolio.md           # Portfolio
+├── cv.md                  # CV
+├── _config.yml           # Site configuration
+├── _includes/
+│   ├── header.html       # Navigation
+│   ├── footer.html       # Footer
+│   └── head.html         # HTML head
+├── _layouts/
+│   ├── default.html      # Default layout
+│   ├── page.html         # Page layout
+│   └── post.html         # Post layout
+├── _sass/
+│   ├── _base.scss       # Base styles
+│   ├── _layout.scss     # Layout and animations
+│   └── _syntax-highlighting.scss
+├── css/
+│   └── main.scss         # Main stylesheet
+├── img/                  # Images
+└── js/                   # JavaScript files
+```
+
+## 🌐 Deployment
+
+### To Boston University Server
+
+```bash
+# Build the site
+bundle exec jekyll build
+
+# Deploy to BU
+scp -r _site/* your-username@cs-people.bu.edu:~/public_html/
+
+# Or use rsync for incremental updates
+rsync -avz --delete _site/ your-username@cs-people.bu.edu:~/public_html/
+```
+
+### To GitHub Pages (Alternative)
+
+1. Push to GitHub
+2. Enable GitHub Pages in repository settings
+3. Select main branch
+4. Site will be available at `https://username.github.io`
+
+## ✨ Key Features Explained
+
+### Homepage News Section
+- Displays recent achievements
+- Animated slide-in effects
+- Easy to update with new items
+- Links to external resources
+
+### Publications Page
+- Professional paper layout
+- Award badges (like your Honorable Mention)
+- Links to PDFs, slides, code
+- Hover effects on cards
+
+### Experience Page
+- Timeline-style layout
+- Skill tags with hover effects
+- Detailed descriptions
+- Visual card design
+
+### Portfolio
+- Project cards with descriptions
+- Technology tags
+- Links to resources
+- Professional presentation
+
+## 🎯 Before Your Interview
+
+### High Priority Checklist
+- [ ] Update email in `_config.yml`
+- [ ] Replace profile picture
+- [ ] Add AIDB paper details
+- [ ] Fill in advisor name
+- [ ] Update social media links
+- [ ] Test all links work
+- [ ] Deploy to BU server
+- [ ] Test on mobile device
+
+### Content Checklist
+- [ ] About page complete
+- [ ] Publications have descriptions
+- [ ] Experience details filled in
+- [ ] Portfolio projects described
+- [ ] CV information complete
+- [ ] News items accurate
+
+## 🔧 Customization Tips
+
+### Changing Colors
+Edit `_sass/_base.scss`:
+```scss
+$theme-color: $dark_blue; // Change to any color
+```
+
+### Adding News Items
+Edit `index.html`:
+```html
+<li class="news-item fade-in">
+  <span class="news-date">Month Year</span>
+  <span class="news-content">Your news here</span>
+</li>
+```
+
+### Adding Publications
+Edit `publications.md` and follow the template structure.
+
+### Modifying Navigation
+Edit `_includes/header.html` to add/remove menu items.
+
+## 🐛 Troubleshooting
+
+### Site not building?
+- Check for syntax errors in YAML front matter
+- Verify all HTML tags are closed
+- Run `jekyll build` and read error messages
+
+### Styles not applying?
+- Clear browser cache
+- Rebuild site: `bundle exec jekyll build`
+- Check for typos in SCSS files
+
+### Deployment issues?
+- Verify SSH access to BU server
+- Check file permissions
+- Ensure correct directory path
+
+## 📚 Resources
+
+- [Jekyll Documentation](https://jekyllrb.com/docs/)
+- [Markdown Guide](https://www.markdownguide.org/)
+- [Font Awesome Icons](https://fontawesome.com/icons)
+- [SCSS Guide](https://sass-lang.com/guide)
+
+## 📄 License
+
+This is your personal academic website. Customize it as needed!
+
+## 🤝 Acknowledgments
+
+Based on the *folio theme, significantly enhanced with:
+- Modern animations and effects
+- Professional academic layouts
+- News highlights section
+- Enhanced publications display
+- Experience timeline
+- CV page
+- Mobile-responsive design
+
+## 📧 Support
+
+For questions about customization or deployment, refer to:
+- QUICK_START.md for immediate help
+- SETUP_INSTRUCTIONS.md for detailed guide
+- CONTENT_EXAMPLES.md for content templates
+
+---
+
+**Good luck with your interview!** 🎓🚀
+
+*Built with Jekyll • Designed for academics • Interview-ready*
+
+Last updated: December 2025
