@@ -3,22 +3,77 @@ layout: default
 ---
 
 <div class="header-bar">
-  <h1>*folio</h1>
-  <h2>simple whitespace theme</h2>
-  <br/>
+  <h1 class="animated-title">Anwesha Saha</h1>
+  <h2>PhD Student | Database Systems Researcher</h2>
+  <br />
   <hr>
-  <br/>
+  <br />
 </div>
 
+<div class="intro-section">
+  <p style="text-align: center; font-size: 18px; line-height: 1.8;">
+    I am a PhD student at Boston University researching database systems and data management.
+    My work involves designing practical, data-aware structures that exploit the structure of data and it's distribution
+    to reduce latency and memory footprint. My overarching goal is to build data structures that can be integrated into
+    practical applications and make existing technologies more practically implementable.
+  </p>
+</div>
 
-<ul class="post-list">
-    {% for post in paginator.posts %}
-      <li>
-        <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-        <p class="post-meta">{{ post.date | date: '%B %-d, %Y — %H:%M' }}</p>
-        <p>{{ post.description }}</p>
-        <br/>
-        <hr/>
-      </li>
-    {% endfor %}
-</ul>
+<div class="news-section">
+  <h2 style="color: #A52A2A; margin-bottom: 20px;">Recent News & Highlights</h2>
+  <ul class="news-list">
+    <li class="news-item fade-in">
+      <span class="news-date">September 2025</span>
+      <span class="news-content">Our paper at <strong>AIDB 2025</strong> received <strong>Honorable Mention
+          Award</strong>!</span>
+    </li>
+    <li class="news-item fade-in">
+      <span class="news-date">August 2024</span>
+      <span class="news-content">Our paper on AXE: A Task Decomposition Approach to Learned LSM Tuning has been accepted
+        at PVLDB!</span>
+    </li>
+    <li class="news-item fade-in">
+      <span class="news-date">July 2025</span>
+      <span class="news-content">Our paper on Exploring Wavelet Trees as Space-Efficient Physical-to-Sorted Mapping for
+        Learned Indexes has been accepted at AIDB 2025!</span>
+    </li>
+    <li class="news-item fade-in">
+      <span class="news-date">January 2025</span>
+      <span class="news-content">Presented our work on split Learning for Robust LSM Tuning as Poster at <a
+          href="https://nedbday.github.io/2025/">NEDB Day 2025</a></span>
+    </li>
+    <li class="news-item fade-in">
+      <span class="news-date">September 2024</span>
+      <span class="news-content">Started my PhD at Boston University, advised by <a
+          href="https://www.cs.bu.edu/people/manos" target="_blank">Prof. Manos Athanassoulis</a></span>
+    </li>
+    <li class="news-item fade-in">
+      <span class="news-date">June 2024</span>
+      <span class="news-content">Attended <a
+          href="https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/24254" target="_blank">Summer
+          School@Dagstuhl</a> with <a href="https://dblp.org/pid/g/GoetzGraefe.html" target="_blank"> Goetz Graefe
+        </a>!</span>
+    </li>
+    <li class="news-item fade-in">
+      <span class="news-date">March 2024</span>
+      <span class="news-content">Gave my first talk at <strong>KubeCon</strong>, Europe 2024 with <a
+          href="https://www.bu.edu/cds-faculty/profile/langdon-white/">Prof Langdon White</a> <a
+          href="https://www.youtube.com/watch?v=LEjTcQxxbL8" target="_blank">"Watch here"</a></span>
+    </li>
+    <li class="news-item fade-in">
+      <span class="news-date">January 2024</span>
+      <span class="news-content">Presented our work on Robust LSM Tuning as Poster at <a
+          href="https://bu-disc.github.io/nedbday/2024/">NEDB Day 2024</a></span>
+    </li>
+    <li class="news-item fade-in">
+      <span class="news-date">2022-2024</span>
+      <span class="news-content">Completed Masters at Boston University - Thesis on <strong>Tuning LSM Trees using
+          Bayesian Optimization</strong></span>
+      Optimization</span>
+    </li>
+    <li class="news-item fade-in">
+      <span class="news-date">June, 2019 - August, 2022</span>
+      <span class="news-content">Software Developer at Oracle, Bangalore</span>
+    </li>
+  </ul>
+</div>
