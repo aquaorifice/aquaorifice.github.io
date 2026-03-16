@@ -7,13 +7,11 @@ permalink: /about/
 <img class="col one right" src="/img/picture.jpeg">
 
 <br/>
-I am a PhD student at Boston University (Fall 2024 - Present), advised by Prof. Manos Athanassoulis in the DiSC Lab and MIDAS Group. My research focuses on Database Systems, specifically efficient space-optimized indexing structures and robust tuning of LSM Trees.
+I am a PhD student at Boston University (Fall 2024 - Present), advised by Prof. Manos Athanassoulis in the DiSC Lab within the MIDAS Group. My current research focuses on Database Systems, specifically designing efficient space-optimized indexing structures. Before this, I worked on robust tuning of LSM Trees.
 
-Before joining BU, I spent 3 years as a Software Developer at Oracle, where I contributed to the R&D section of the Communications GBU and gained experience in fullstack development, network performance optimization and benchmarking and log file handling and evaluation for the Oracle Communications GBU (Session Monitor and Session Border Controller products).
+I like exploring data structures that can exploit intrinsic geometry and distribution of data to outperform traditional baselines. 
 
-My research interests lie at the intersection of Databases, Systems, and Machine Learning. I'm particularly excited about building data structures that can exploit intrinsic geometry and distribution of data to outperform traditional baselines.
-Having worked in software development, I aim to design systems that are not just theoretically sound but practically implementable and robust. 
-
+Before joining BU, I spent 3 years as a Software Developer at Oracle, where I contributed to the R&D section of the Communications GBU and gained experience in fullstack development, network performance optimization and benchmarking and log file handling and evaluation.
 <br/>
 
 ### Education
